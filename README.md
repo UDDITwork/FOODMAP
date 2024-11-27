@@ -2,7 +2,7 @@
 # 🌟 Welcome to My Digital World - UDDIT ✨
 
 <p align="center">
-  <img src="https://i.imgur.com/paLJ4b7.jpg" alt="UDDIT's Image" width="200" height="200" style="border-radius: 50%; border: 2px solid #555; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+  <img src="https://i.imgur.com/paLJ4b7.jpg](https://imgur.com/JlDMaoZ" alt="UDDIT's Image" width="200" height="200" style="border-radius: 50%; border: 2px solid #555; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
 </p>
 
 Hi there! I'm **UDDIT**, a passionate developer and enthusiast. Here's how you can connect with me across various platforms. Let’s collaborate, innovate, and grow together! 🚀
