@@ -1,11 +1,146 @@
 # 🌟🍽️ FoodMap - Revolutionizing Food Sustainability 🍴🌍
-# 🌟 Welcome to My Digital World - UDDIT ✨
+# 🌟 UDDIT ✨
 
 <p align="center">
   <img src="https://i.imgur.com/paLJ4b7.jpg](https://imgur.com/JlDMaoZ" alt="UDDIT's Image" width="200" height="200" style="border-radius: 50%; border: 2px solid #555; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
 </p>
 
 Hi there! I'm **UDDIT**, a passionate developer and enthusiast. Here's how you can connect with me across various platforms. Let’s collaborate, innovate, and grow together! 🚀
+# 🌟 Welcome to Food-Map: an App to pop up cheap-good quality food notifications if nearby restaurant has any unconsumed food, for price sensitive customers,who can avail food at discount price listed by restaurant.✨
+## 📂 Project Directory Structure
+
+Below is the directory structure for the **FoodMap** project:
+
+```plaintext
+foodmap/
+│
+├── frontend/                    # Mobile App (React Native)
+│   ├── src/
+│   │   ├── api/                # API calls
+│   │   │   ├── auth.ts         # Authentication API
+│   │   │   ├── orders.ts       # Orders API
+│   │   │   ├── restaurants.ts  # Restaurant API
+│   │   │   └── config.ts       # API configuration
+│   │   │
+│   │   ├── components/         # Reusable components
+│   │   │   ├── common/
+│   │   │   │   ├── Button.tsx
+│   │   │   │   ├── Card.tsx
+│   │   │   │   ├── Input.tsx
+│   │   │   │   └── Loader.tsx
+│   │   │   │
+│   │   │   ├── maps/
+│   │   │   │   ├── MapView.tsx
+│   │   │   │   └── Marker.tsx
+│   │   │   │
+│   │   │   ├── restaurant/
+│   │   │   │   ├── MenuCard.tsx
+│   │   │   │   └── RestaurantCard.tsx
+│   │   │   │
+│   │   │   └── orders/
+│   │   │       ├── OrderCard.tsx
+│   │   │       └── TrackingView.tsx
+│   │   │
+│   │   ├── screens/           # Main screens
+│   │   │   ├── auth/
+│   │   │   │   ├── Login.tsx
+│   │   │   │   └── OtpVerify.tsx
+│   │   │   │
+│   │   │   ├── home/
+│   │   │   │   ├── Home.tsx
+│   │   │   │   └── RestaurantList.tsx
+│   │   │   │
+│   │   │   ├── restaurant/
+│   │   │   │   ├── Menu.tsx
+│   │   │   │   └── Details.tsx
+│   │   │   │
+│   │   │   ├── orders/
+│   │   │   │   ├── Cart.tsx
+│   │   │   │   ├── Checkout.tsx
+│   │   │   │   └── TrackOrder.tsx
+│   │   │   │
+│   │   │   └── profile/
+│   │   │       └── Profile.tsx
+│   │   │
+│   │   ├── redux/            # State management
+│   │   │   ├── slices/
+│   │   │   │   ├── authSlice.ts
+│   │   │   │   ├── cartSlice.ts
+│   │   │   │   └── orderSlice.ts
+│   │   │   │
+│   │   │   └── store.ts
+│   │   │
+│   │   ├── navigation/       # Navigation setup
+│   │   │   ├── AppNav.tsx
+│   │   │   ├── AuthNav.tsx
+│   │   │   └── types.ts
+│   │   │
+│   │   ├── utils/           # Utility functions
+│   │   │   ├── location.ts
+│   │   │   ├── storage.ts
+│   │   │   └── validation.ts
+│   │   │
+│   │   └── config/         # App configuration
+│   │       ├── constants.ts
+│   │       └── theme.ts
+│   │
+│   └── assets/            # Images, fonts etc.
+│
+├── backend/              # Server (Node.js + Express)
+│   ├── src/
+│   │   ├── config/
+│   │   │   ├── database.ts
+│   │   │   └── server.ts
+│   │   │
+│   │   ├── controllers/
+│   │   │   ├── authController.ts
+│   │   │   ├── orderController.ts
+│   │   │   └── restaurantController.ts
+│   │   │
+│   │   ├── models/
+│   │   │   ├── User.ts
+│   │   │   ├── Order.ts
+│   │   │   ├── Restaurant.ts
+│   │   │   └── MenuItem.ts
+│   │   │
+│   │   ├── routes/
+│   │   │   ├── auth.ts
+│   │   │   ├── orders.ts
+│   │   │   └── restaurants.ts
+│   │   │
+│   │   ├── services/
+│   │   │   ├── authService.ts
+│   │   │   ├── orderService.ts
+│   │   │   └── notificationService.ts
+│   │   │
+│   │   ├── middleware/
+│   │   │   ├── auth.ts
+│   │   │   ├── error.ts
+│   │   │   └── validation.ts
+│   │   │
+│   │   └── utils/
+│   │       ├── logger.ts
+│   │       └── helpers.ts
+│   │
+│   └── tests/           # Backend tests
+│
+├── common/             # Shared code
+│   ├── types/
+│   │   ├── order.ts
+│   │   └── user.ts
+│   │
+│   └── constants/
+│       └── index.ts
+│
+└── docs/              # Documentation
+    ├── api/
+    │   └── swagger.yaml
+    │
+    └── setup.md
+```
+
+🚀✨
+
 
 ---
 
