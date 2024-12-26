@@ -1,6 +1,8 @@
 # 🌟🍽️ FoodMap - Revolutionizing Food Sustainability 🍴🌍 by UDDIT ✨
 Hi there! I'm **UDDIT**, a passionate developer and enthusiast. Here's how you can connect with me across various platforms. Let’s collaborate, innovate, and grow together! 🚀
 # 🌟 Welcome to Food-Map: an App to pop up cheap-good quality food notifications if nearby restaurant has any unconsumed food, for price sensitive customers,who can avail food at discount price listed by restaurant.✨
+![image](https://github.com/user-attachments/assets/f17bb5ae-7500-488c-9433-ad8dba680fde)
+
 
 
 
